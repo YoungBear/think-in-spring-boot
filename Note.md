@@ -9,8 +9,7 @@ mvn dependency:tree -Dincludes=org.springframework*
 # 运行spring-boot工程
 mvn spring-boot:run
 
-# curl请求
-curl http://127.0.0.1:8080/
+
 ```
 
 
@@ -36,5 +35,15 @@ java -jar
 ```shell
 # 执行
 java -jar target/demo-0.0.1-SNAPSHOT.jar
+```
+
+
+
+curl
+
+```shell
+# curl请求
+curl http://127.0.0.1:8080/
+curl http://127.0.0.1:8080/hello-world
 ```
 
